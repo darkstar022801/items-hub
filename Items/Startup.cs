@@ -23,7 +23,7 @@ namespace Items
             builder =>
             {
                 builder.AllowAnyMethod().AllowAnyHeader()
-                       .WithOrigins("http://portal.kingcalmeals.s3-website.us-east-2.amazonaws.com")
+                       .WithOrigins("http://localhost:7000")
                        .AllowCredentials();
             }));
         }
